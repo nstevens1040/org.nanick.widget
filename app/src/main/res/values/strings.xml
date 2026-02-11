@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App name (used by launcher and system UI) -->
+    <string name="app_name">Time and Temp Widget</string>
+
+    <!-- Widget content descriptions (accessibility) -->
+    <string name="weather_icon_desc">Current weather icon</string>
+
+    <!-- Optional: shown if you later add a permission explanation UI -->
+    <string name="location_permission_title">Location permission needed</string>
+    <string name="location_permission_message">
+        This widget uses your location to show local weather. Grant location permission to enable accurate weather.
+    </string>
+
+    <!-- Optional: if you add a “go to settings” flow later -->
+    <string name="open_settings">Open settings</string>
+    <string name="not_now">Not now</string>
+
+</resources>
