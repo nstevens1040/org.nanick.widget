@@ -32,7 +32,7 @@ import com.google.android.gms.location.LocationServices;
 public class ClockWeatherWidgetProvider extends AppWidgetProvider {
     private static final String TAG = "org.nanick.widget";
     private static final ExecutorService executor = Executors.newSingleThreadExecutor();
-    private static final String API_KEY = "e1f10a1e78da46f5b10a1e78da96f525";
+    private static final String API_KEY = "ff90f212a6984a7390f212a698ea73cc";
     private static double FALLBACK_LAT = 42.4935302;
     private static double FALLBACK_LON = -87.9003771;
     private static final String WEATHER_ENDPOINT = "https://api.weather.com/v3/wx/forecast/fifteenminute";
@@ -130,7 +130,7 @@ public class ClockWeatherWidgetProvider extends AppWidgetProvider {
                 + "&units=e&language=en-US&format=json"
                 + "&apiKey=" + API_KEY;
 
-        // geocode=42.4935302%2C-87.9003771&units=e&language=en-US&format=json&apiKey=e1f10a1e78da46f5b10a1e78da96f525
+        // geocode=42.4935302%2C-87.9003771&units=e&language=en-US&format=json&apiKey=ff90f212a6984a7390f212a698ea73cc
     }
 
     private int getLocalIconResId(Context context, String iconCode) {
